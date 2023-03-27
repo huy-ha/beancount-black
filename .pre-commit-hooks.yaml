@@ -1,0 +1,9 @@
+# .pre-commit-hooks.yaml
+- id: bean-black
+  name: bean-black
+  description: "Bean-Black: The uncompromising BeanCount formatter"
+  entry: bean-black
+  language: python
+  files: ".beancount$"
+  args:
+    - -n

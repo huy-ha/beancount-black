@@ -7,4 +7,4 @@ repos:
   - repo: https://github.com/asottile/reorder_python_imports
     rev: v3.9.0
     hooks:
-    -   id: reorder-python-imports
+      - id: reorder-python-imports
